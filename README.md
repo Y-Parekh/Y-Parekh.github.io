@@ -4,8 +4,9 @@
 	body{background-color: black;}
 	
 	h1 {font-soze: 20pt;
-		  color:White;
-		  font-family: monospace;}
+		color:White;
+		font-family: monospace;
+    		font-size: xx-large}
 	p {font-size: 15pt;
 		color: White;
 		font family: Kristen ITC;}
