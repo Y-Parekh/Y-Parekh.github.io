@@ -1,8 +1,7 @@
 <html>
 <head>
-<title>Paneer Masala</title>
 <style>
-	body{background-color: orange;}
+	body{background-color: black;}
 	
 	h1 {font-soze: 20pt;
 		  color:Brown;
