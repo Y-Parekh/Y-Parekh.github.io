@@ -4,9 +4,10 @@
 	body{background-color: black;}
 	
 	h1 {font-soze: 20pt;
-		  color:Brown;
+		  color:White;
 		  font-family: monospace;}
 	p {font-size: 15pt;
+		color: White;
 		font family: Kristen ITC;}
 	img{
 		border-radius: 50%;
@@ -17,14 +18,7 @@
 
 <body>
 	<script>
-		var cities = ["Delhi", "Bengaluru", "Visakhapatnam", "Hyderabad", "Lucknow", "Ahmedabad", "Indore", "Pune", "Bhopal", "Surat", "Meerut", "Mumbai", "Chennai", "Warangal"];
-		var text = "";
-		var i;
-		for (i = 0; i < cheese.length; i++) {
-			text += getRandomItem(cities) + " " + cities[i] + "<br>";
-		}
 		
-		document.write(text)
 	</script>
 	
 	<p> Click the button to loop whilst i is less than 10. </p>
@@ -89,7 +83,5 @@
 	<p> This page is all about Paneer	</p>
 	<img src = "https://media.cntraveller.in/wp-content/uploads/2020/05/homemade-paneer-recipes-1366x768.jpg">
 	<li><a href="https://en.wikipedia.org/wiki/Paneer">PANEEERRRRRRRRRRRR PLS CLICK</a></li>
-	
 </body>
-
 </html>
