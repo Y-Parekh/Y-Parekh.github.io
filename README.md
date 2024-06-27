@@ -5,7 +5,7 @@
 	
 	h1 {font-soze: 20pt;
 		  color:Brown;
-		  font-family: Goudy Stout;}
+		  font-family: monospace;}
 	p {font-size: 15pt;
 		font family: Kristen ITC;}
 	img{
