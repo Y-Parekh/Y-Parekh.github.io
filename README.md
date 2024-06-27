@@ -23,7 +23,7 @@
 	</script>
 	
 	<h1><strong><u>Yash Parekh</strong></u></h1>
-	<img src = "https://media.cntraveller.in/wp-content/uploads/2020/05/homemade-paneer-recipes-1366x768.jpg">
+	<img src = "Me.jpg">
 	<li><a href="https://en.wikipedia.org/wiki/Paneer">PANEEERRRRRRRRRRRR PLS CLICK</a></li>
 </body>
 </html>
