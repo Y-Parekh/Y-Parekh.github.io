@@ -23,7 +23,7 @@
 	</script>
 	
 	<h1><strong><u>Yash Parekh</u></strong></h1>
-	<img src = "YASH2.jpg">
+	<img src = "YASH2.png">
 	<li><a href="https://en.wikipedia.org/wiki/Paneer">PANEEERRRRRRRRRRRR PLS CLICK</a></li>
 </body>
 </html>
