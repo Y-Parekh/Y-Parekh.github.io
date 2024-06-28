@@ -11,7 +11,7 @@
 		font-family: monospace;
     		font-size: xx-large}
 	p {font-size: 15pt;
-		color: White;
+		color: #4ab0a4;
 		font family: Kristen ITC;}
 </style>
 </head>
