@@ -4,7 +4,7 @@
 		Yash Parekh
 	</title>
 <style>
-	body{background-color: black;}
+	body{background-color: #e07777;}
 	
 	h1 {font-soze: 20pt;
 		color:White;
