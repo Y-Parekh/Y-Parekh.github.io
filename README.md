@@ -7,7 +7,7 @@
 	body{background-color: #e07777;}
 	
 	h1 {font-soze: 20pt;
-		color:White;
+		color:#4ab0a4;
 		font-family: monospace;
     		font-size: xx-large}
 	p {font-size: 15pt;
