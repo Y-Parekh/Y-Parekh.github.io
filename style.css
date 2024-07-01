@@ -60,14 +60,18 @@ body{
     float:left;
     width:70%;
     padding: 0 30px;
-    box-sizing:border-box
+    box-sizing:border-box;
+    opacity: 0;
+    tranisition: opacity 2s ease-in;
 }
 
 #main2{
     float:right;
     width:70%;
     padding: 0 30px;
-    box-sizing:border-box
+    box-sizing:border-box;
+    opacity: 0;
+    tranisition: opacity 2s ease-in;
 }
 
 
@@ -77,7 +81,9 @@ body{
     background: #333;
     color:white;
     padding:10px;
-    box-sizing:border-box
+    box-sizing:border-box;
+    opacity: 0;
+    tranisition: opacity 2s ease-in;
 }
 
 #sidebar2{
@@ -86,7 +92,13 @@ body{
     background: #333;
     color:white;
     padding:10px;
-    box-sizing:border-box
+    box-sizing:border-box;
+    opacity: 0;
+    tranisition: opacity 2s ease-in;
+}
+
+#main1.visible main2.visible sidebar1.visible sidebar2.visible{
+    opacity: 1;
 }
 
 #main-footer{
