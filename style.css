@@ -56,15 +56,32 @@ body{
     padding-top:30px;
 }
 
-#main{
+#main1{
     float:left;
     width:70%;
     padding: 0 30px;
     box-sizing:border-box
 }
 
-#sidebar{
+#main2{
     float:right;
+    width:70%;
+    padding: 0 30px;
+    box-sizing:border-box
+}
+
+
+#sidebar1{
+    float:right;
+    width:30%;
+    background: #333;
+    color:white;
+    padding:10px;
+    box-sizing:border-box
+}
+
+#sidebar2{
+    float:left;
     width:30%;
     background: #333;
     color:white;
