@@ -61,8 +61,6 @@ body{
     width:70%;
     padding: 0 30px;
     box-sizing:border-box;
-    opacity: 0;
-    tranisition: opacity 2s ease-in;
 }
 
 #main2{
@@ -70,8 +68,6 @@ body{
     width:70%;
     padding: 0 30px;
     box-sizing:border-box;
-    opacity: 0;
-    tranisition: opacity 2s ease-in;
 }
 
 
@@ -82,8 +78,6 @@ body{
     color:white;
     padding:10px;
     box-sizing:border-box;
-    opacity: 0;
-    tranisition: opacity 2s ease-in;
 }
 
 #sidebar2{
@@ -93,11 +87,14 @@ body{
     color:white;
     padding:10px;
     box-sizing:border-box;
+    
+}
+
+.fade-in{
     opacity: 0;
     tranisition: opacity 2s ease-in;
 }
-
-#main1.visible, #main2.visible, #sidebar1.visible, #sidebar2.visible {
+.fade-in.visible {
     opacity: 1;
 }
 
