@@ -1,0 +1,150 @@
+body{
+    background-color: #f4f4f4;
+    color:#555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin:0
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#main-header{
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-size: 30;
+    background-color: #333;
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1001;
+    position: relative
+
+}
+
+#navbar{
+    background-color: #333;
+    position: fixed;
+    width:100%;
+    top:0px;
+    z-index: 1000;
+
+}
+
+#navbar ul{
+    padding:0px;
+    list-style:none;
+    text-align: center;
+}
+
+#navbar li{
+    display:inline;
+    margin:10px 10px;
+}
+
+#navbar a{
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    border-radius: 2mm;
+    text-decoration:none;
+    font-size: 18px;
+    font-weight: bold;
+    padding:10px 20px;
+    transition: background-color 2s ease;
+}
+
+#navbar a:hover {
+    background-color: #fcad03;
+}
+
+#showcase{
+    background-image:url("showcase.jpg");
+    background-position:center right;
+    min-height:10px;
+    margin-bottom:30px;
+    text-align:center;
+
+}
+
+#showcase h1{
+    color:#fff;
+    font-size:30px;
+    line-height: 1.6em;
+    padding-top:30px;
+}
+
+#main1{
+    float:left;
+    width:70%;
+    padding: 0 30px;
+    box-sizing:border-box;
+}
+
+#main2{
+    float:right;
+    width:70%;
+    padding: 0 30px;
+    box-sizing:border-box;
+}
+
+
+#sidebar1{
+    float:right;
+    width:30%;
+    background: #333;
+    color:#fcad03;
+    padding:10px;
+    padding-left:25px;
+    box-sizing:border-box;
+}
+
+#sidebar2{
+    float:left;
+    width:30%;
+    background: #333;
+    color:#fcad03;
+    padding:10px;
+    padding-left:25px;
+    box-sizing:border-box;
+}
+
+
+.fade-in-section {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+#main1.visible, #main2.visible, #sidebar1.visible, #sidebar2.visible {
+    opacity: 1;
+}
+
+.line{
+    border-color: #fcba03;
+    border-style: solid;
+}
+
+#main-footer{
+    background: #333;
+    color:white;
+    text-align: center;
+    padding:20px;
+    margin-top:40px
+}
+
+
+@media(max-width:1000px){
+    #main1, #main2{
+        width: 100%;
+        float: none
+    }
+
+    #sidebar1, #sidebar2{
+        width: 100%;
+        float: none
+    }
+}
