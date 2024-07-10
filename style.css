@@ -286,6 +286,10 @@ section {
 .about-pic {
   border-radius: 2rem;
 }
+.about-profilepic {
+  border-radius: 10rem;
+}
+
 
 .arrow {
   position: absolute;
